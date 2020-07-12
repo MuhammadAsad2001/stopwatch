@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STOPWATCH</title>
+    <style>
+        h1{display: inline-block;font-size: 110px; margin: 3px; width: 250px; background-color: deepskyblue;}
+        #stopwatch{background-color: darkgray; width: 800px; border: 2px dashed white;}
+        img{display: inline-block; margin: 5px; }
+
+    </style>
+</head>
+<body>
+    <center>
+        <h2>STOPWATCH</h1>
+    <div id="stopwatch">
+    <div>
+        <h1 id="min">0</h2>
+        <h1 id="sec">0</h2>
+        <h1 id="millisec">0</h2>
+    </div>
+    <br><br>
+    <div>
+        <img src="play.png" alt="" onclick="start()" width="80px" height="70px">
+        <img src="stop.png" alt="" onclick="stop()" width="80px" height="70px">
+        <img src="reset.jpg" alt="" onclick="reset()" width="80px" height="70px">
+        
+        
+         
+    </div>
+    </div>
+</center>
+</body>
+<script src="app.js"></script>
+</html>
